@@ -239,6 +239,11 @@ body {
         width: 30%;
         margin:auto;
     }
+
+    .apresentacao__conteudo__paragrafo__destaque__nome {
+        font-size: 1.450rem;
+        color : var(--cor-terciaria);
+    }
 }
 
 @media (max-width: 740px) {
@@ -270,15 +275,17 @@ body {
         font-size: 1.050rem;
         color : var(--cor-terciaria);
     }
+    
 }
 
-
+@media (min-width: 950px) {
+    .apresentacao__conteudo__paragrafo__destaque__nome {
+        font-size: 1.450rem;
+        color : var(--cor-terciaria);
+    }
+}
 
 h1 {
     display: none;
 }
 
-.apresentacao__conteudo__paragrafo__destaque__nome {
-    font-size: 1.450rem;
-    color : var(--cor-terciaria);
-}
