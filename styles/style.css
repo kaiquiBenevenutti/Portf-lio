@@ -74,7 +74,7 @@ body {
 }
 
 .apresentacao__conteudo__paragrafo {
-    font-size: 1.20rem;
+    font-size: 1.4rem;
     font-family: var(--fonte-secundaria);
 }  
 
@@ -246,4 +246,39 @@ body {
         flex-direction: column-reverse;
         gap:15px;
     }
+
+    .apresentacao__conteudo {
+        padding-left: 2rem ;
+        padding-right: 2rem ;
+    }
+
+    .apresentacao__conteudo__paragrafo {
+        font-size: 1rem;
+    }
+
+    .apresentacao__conteudo__links__subtitulo {
+        font-size: 1rem;
+    }
+
+    .apresentacao__conteudo__links__navegacao {
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao__conteudo__paragrafo__destaque__nome {
+        font-size: 1.050rem;
+        color : var(--cor-terciaria);
+    }
+}
+
+
+
+h1 {
+    display: none;
+}
+
+.apresentacao__conteudo__paragrafo__destaque__nome {
+    font-size: 1.450rem;
+    color : var(--cor-terciaria);
 }
