@@ -198,6 +198,19 @@ body {
     font-size: 1.25rem;
 }
 
+.container_certificados{
+    gap: 0;
+}
+
+.imagem_certificado{
+    transform: rotate(90deg);
+    width: 30%;
+}
+
+.link_certificado{
+    color: var(--cor-terciaria)
+}
+
 @media (max-width: 950px) {
     .apresentacao__conteudo {
         flex-direction: column;
