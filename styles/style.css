@@ -167,7 +167,7 @@ body {
     font-family: var(--fonte-secundaria);
     padding: 3% 0 0 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -184,7 +184,7 @@ body {
 }
 
 .curriculo__conteudo__dados:hover {
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
 }
 
 .curriculo__conteudo__dados__cursos {
@@ -205,10 +205,18 @@ body {
 .imagem_certificado{
     transform: rotate(90deg);
     width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    height: 30;
 }
 
 .link_certificado{
-    color: var(--cor-terciaria)
+    color: var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
 }
 
 @media (max-width: 950px) {
@@ -245,7 +253,7 @@ body {
     }
 
     .curriculo__conteudo__dados:hover {
-        font-size: 1.125rem;
+        /* font-size: 1.125rem; */
     }
 
     .curriculo__foto {
