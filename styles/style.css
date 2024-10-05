@@ -84,6 +84,12 @@ body {
 
 .apresentacao__conteudo__paragrafo__sobre-mim {
     color : var(--cor-terciaria);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img_logos {
+    cursor: pointer;
 }
 
 .apresentacao__conteudo__links {
