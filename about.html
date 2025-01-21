@@ -23,7 +23,9 @@
                     <li>Telefone: +55 (47) 99141-7381</li>
                     <li>Email: benevenuttikaiqui@gmail.com</li>
                 </ul>
-                <!-- <img class="curriculo__foto" src="./assets/Foto Curriculo.jpg" alt="Foto do Kaiqui"> -->
+                <div class="curriculo__conteudo__informacoes__download">
+                    <a class="btn-primary" href="./assets/Curriculo_Kaiqui.pdf" download>Baixar em PDF</a>
+                </div>
             </div>
             <h2 class="curriculo__conteudo__subtitulos">FORMAÇÃO ACADÊMICA</h2>
             <div class="curriculo__conteudo__dados">
@@ -32,13 +34,17 @@
                         <span class="titulo-destaque"> Ensino Médio Completo</span> - E.E.B. Honório Miranda - Início 02/21 - Conclusão: 12/23
                     </li>
                     <li>
-                        <span class="titulo-destaque"> Curso de ADS - Análise e Desenvolvimento de Sistemas</span> - Início 09/24 - em andamento <br>
+                        <span class="titulo-destaque">Curso de ADS - Análise e Desenvolvimento de Sistemas</span> - Início 09/24 - em andamento <br>
                         IFSC - Instituto Federal de Santa Catarina - Presencial <br>
-                        Conteúdo: <br> Introdução à Programação, Introdução à Engenharia de Software, Arquitetura e Organização de Computadores, Programação Estruturada, 
-                        Engenharia de Software I, Banco de Dados I, Programação Orientada a Objetos, Banco de Dados II, Engenharia de Software II, 
-                        Desenvolvimento para Dispositivos Móveis, Algoritmos e Estruturas de Dados, Gerência de Projetos, Qualidade e Teste de Software, 
-                        Programação Concorrente e Distribuída, Segurança da Informação, Sistemas Operacionais.
-                    </li>
+                        <div class="conteudo">
+                            <span class="titulo-destaque">Conteúdo:</span> <br> 
+                            Introdução à Programação, Introdução à Engenharia de Software, Arquitetura e Organização de Computadores, Programação Estruturada, 
+                            Engenharia de Software I, Banco de Dados I, Programação Orientada a Objetos, Banco de Dados II, Engenharia de Software II, 
+                            Desenvolvimento para Dispositivos Móveis, Algoritmos e Estruturas de Dados, Gerência de Projetos, Qualidade e Teste de Software, 
+                            Programação Concorrente e Distribuída, Segurança da Informação, Sistemas Operacionais.
+                        </div>
+                        <button class="btn-toggle btn-primary" onclick="toggleTexto()">Exibir tudo</button>
+                    </li>                    
                 </ul>
             </div>
             <h2 class="curriculo__conteudo__subtitulos">EXPERIÊNCIA PROFISSIONAL</h2>
@@ -140,5 +146,7 @@
     <footer>
         <p class="rodape">Desenvolvido por Kaiqui Benevenutti.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
