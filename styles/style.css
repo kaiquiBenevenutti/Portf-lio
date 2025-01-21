@@ -71,6 +71,7 @@ body {
 
 .titulo-destaque {
     color: var(--cor-terciaria);
+    text-decoration: none;
 }
 
 .apresentacao__conteudo__paragrafo {
