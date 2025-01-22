@@ -377,11 +377,29 @@ h1 {
     border-color: #0d6efd;
     opacity: 0.65;
   }
-/* Inicialmente, o conteúdo estará oculto em telas pequenas */
+
+/* Em telas maiores (PC), o conteúdo será exibido completo e o botão será ocultado */
 .conteudo {
-    max-height: 0; /* Oculta o conteúdo inicialmente */
-    overflow: hidden; /* Garante que o conteúdo extra não será exibido */
-    transition: max-height 0.3s ease; /* Animação suave ao expandir */
+    max-height: 0; /* Oculta inicialmente */
+    overflow: hidden; /* Esconde o conteúdo extra */
+    transition: max-height 0.3s ease; /* Transição suave */
+}
+
+.btn-toggle {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+}
+
+@media (min-width: 769px) {
+    .conteudo {
+        max-height: none; /* Exibe todo o conteúdo em telas maiores */
+    }
+
+    .btn-toggle {
+        display: none; /* Oculta o botão em telas grandes */
+    }
 }
 
 /* Exibir o botão somente em telas pequenas */
@@ -396,16 +414,5 @@ h1 {
 
     .conteudo {
         max-height: 50px; /* Limita a altura do conteúdo em telas pequenas */
-    }
-}
-
-/* Em telas maiores (PC), o conteúdo será exibido completo e o botão será ocultado */
-@media (min-width: 769px) {
-    .conteudo {
-        max-height: none; /* Exibe o conteúdo completo */
-    }
-
-    .btn-toggle {
-        display: none; /* Oculta o botão em telas grandes */
     }
 }
