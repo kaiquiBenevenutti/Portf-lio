@@ -223,7 +223,15 @@ body {
     display: block;
     margin: 0 auto;
     padding: 0;
-    height: 30;
+    height: 30%;
+}
+
+.imagem_certificado-java{
+    width: 42%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    height: 42%;
 }
 
 .link_certificado{
